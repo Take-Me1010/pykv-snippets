@@ -18,9 +18,9 @@
     "contributes": {
         "languages": [
             {
-                "id": "kivy",
+                "id": "kv",
                 "aliases": [
-                    "kivy",
+                    "KvLang",
                     "kv"
                 ],
                 "extensions": [
@@ -40,7 +40,7 @@
         ],
         "snippets": [
             {
-                "language": "kivy",
+                "language": "kv",
                 "path": "./snippets/kivy.json"
             },
             {
