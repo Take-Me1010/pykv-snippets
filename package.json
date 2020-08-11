@@ -41,11 +41,11 @@
         "snippets": [
             {
                 "language": "kivy",
-                "path": "./snippets/kivyDescription.code-snippets"
+                "path": "./snippets/kivy.json"
             },
             {
                 "language": "python",
-                "path": "./snippets/pythonDescription.code-snippets"
+                "path": "./snippets/python.json"
             }
         ]
     }

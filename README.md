@@ -1,4 +1,4 @@
-# pyKv-snippet README
+# pykv-snippet README
 
 
 ## Features
@@ -9,3 +9,7 @@ All of snippets in python begin with "kv." so that you can discriminate between 
 ### 1.0.0
 
 Initial release.
+
+## License
+
+MIT License, refer to license file.
