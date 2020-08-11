@@ -1,0 +1,45 @@
+{
+	"kivy.windowSize from pykv-sippets": {
+		"prefix": "kv.win",
+		"body": [
+			"from kivy.config import Config",
+			"Config.set('graphics', 'width', '${1:640}')",
+			"Config.set('graphics', 'height', '${2:640}')",
+			"$0"
+		],
+		"description": "Set Window size"
+	},
+	"kivy.load_file from pykv-sippets": {
+		"prefix": "kv.load",
+		"body": [
+			"from kivy.lang import Builder",
+			"Builder.load_file('${1:./test.kv}')"
+		],
+		"description": "Builder.load_file"
+	},
+	"kivy.properties import from pykv-sippets": {
+		"prefix": "kv.prop",
+		"body": "from kivy.properties import ${1:StringProperty}",
+		"description": "from kivy.properties import something"
+	},
+	"kivy.unix.widget import from pykv-sippets":{
+		"prefix": "kv.wid",
+		"body": "from kivy.uix.widget import Widget",
+		"description": "from kivy.uix.widget import Widget"
+	},
+	"kivy.japanaize import from pykv-sippets": {
+		"prefix": "kv.ja",
+		"body": "import japanize_kivy",
+		"description": "you can use Japanese font by import japanize_kivy. See https://blog.amedama.jp/entry/japanize-kivy"
+	},
+	"kivy.widget_templete import from pykv-sippets": {
+		"prefix": "kv.widget",
+		"body": [
+			"class ${1:WidgetnName}(Widget):",
+			"\tdef __init__(self, ${2:**kwargs}):",
+			"\t\tsuper(${1:WidgetnName}, self).__init__(${2:**kwargs})",
+			"\t\t$0"
+		],
+		"description": "basic widget's declaration."
+	}
+}

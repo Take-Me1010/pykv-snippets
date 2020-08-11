@@ -1,0 +1,45 @@
+{
+	"orientaiton from pykv-sippets": {
+		"prefix": "orientation",
+		"body": [
+			"orientation: '${1:vertical}'",
+			"\t"
+		]
+	},
+	"horizontal from pykv-sippets": {
+		"body": "horizontal",
+		"prefix": "horizontal"
+	},
+	"vertical from pykv-sippets": {
+		"prefix": "vertical",
+		"body": "vertical"
+	},
+	"font_size from pykv-sippets": {
+		"prefix": "fontsize",
+		"body": "font_size: "
+	},
+	"padding from pykv-sippets": {
+		"prefix": "pad",
+		"body": "padding: "
+	},
+	"size_x from pykv-sippets": {
+		"prefix": "sx",
+		"body": "size_hint_x: "
+	},
+	"size_y from pykv-sippets": {
+		"prefix": "sy",
+		"body": "size_hint_y: "
+	},
+	"Rectangle: from pykv-sippets": {
+		"prefix": "rectangle",
+		"body": "Rectangle:"
+	},
+	"on_press from pykv-sippets": {
+		"prefix": "onpress",
+		"body": "on_press: "
+	},
+	"on_release from pykv-sippets": {
+		"prefix": "onrelease",
+		"body": "on_release: "
+	}
+}
