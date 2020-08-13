@@ -1,5 +1,23 @@
 {
-	"kivy.windowSize from pykv-sippets": {
+	"kivy App Template from pykv-snippets": {
+		"prefix": "kv.start",
+		"body": [
+			"from kivy.app import App",
+			"\n",
+			"class ${1:AppTitle}(App):",
+			"\tdef __init__(self, **kwargs):",
+			"\t\tsuper(${1:AppTitle}, self).__init__(**kwargs)",
+			"\t\t$0",
+			"\n",
+			"def main():",
+			"\t${1:AppTitle}().run()",
+			"\n",
+			"if __name__ == '__main__':",
+			"\tmain()"
+		],
+		"description": "basic App's declaration."
+	},
+	"kivy.windowSize from pykv-snippets": {
 		"prefix": "kv.win",
 		"body": [
 			"from kivy.config import Config",
@@ -9,7 +27,12 @@
 		],
 		"description": "Set Window size"
 	},
-	"kivy.load_file from pykv-sippets": {
+	"kivy.clock from pykv-snippets": {
+		"prefix": "kv.clk",
+		"body": "from kivy.clock import Clock",
+		"description": "import Clock class"
+	},
+	"kivy.load_file from pykv-snippets": {
 		"prefix": "kv.load",
 		"body": [
 			"from kivy.lang import Builder",
@@ -17,29 +40,44 @@
 		],
 		"description": "Builder.load_file"
 	},
-	"kivy.properties import from pykv-sippets": {
+	"kivy.properties import from pykv-snippets": {
 		"prefix": "kv.prop",
 		"body": "from kivy.properties import ${1:StringProperty}",
 		"description": "from kivy.properties import something"
 	},
-	"kivy.unix.widget import from pykv-sippets":{
+	"kivy.unix.widget import from pykv-snippets":{
 		"prefix": "kv.wid",
 		"body": "from kivy.uix.widget import Widget",
-		"description": "from kivy.uix.widget import Widget"
+		"description": "import Widget class"
 	},
-	"kivy.japanaize import from pykv-sippets": {
+	"kivy.unix.label from pykv-snippets" : {
+		"prefix" : "kv.label",
+		"body": "from kivy.uix.label import Label",
+		"description": "import Label class"
+	},
+	"kivy.unix.button from pykv-snippets": {
+		"prefix": "kv.button",
+		"body": "from kivy.uix.button import Button",
+		"description": "import Button class"
+	},
+	"kivy.uix.screenmanager from pykv-snippets": {
+		"prefix": "kv.screen",
+		"body": "from kivy.uix.screenmanager import ScreenManager, Screen",
+		"description": "import ScreenManager and Screen classes"
+	},
+	"kivy.uix.popup from pykv-snippets": {
+		"prefix": "kv.popup",
+		"body": "from kivy.uix.popup import Popup",
+		"description": "import Popup class"
+	},
+	"kivy.uix.boxlayout from pykv-snippets": {
+		"prefix": "kv.boxlayout",
+		"body": "from kivy.uix.boxlayout import BoxLayout",
+		"description": "import BoxLayout class"
+	},
+	"kivy.japanaize import from pykv-snippets": {
 		"prefix": "kv.ja",
 		"body": "import japanize_kivy",
 		"description": "you can use Japanese font by import japanize_kivy. See https://blog.amedama.jp/entry/japanize-kivy"
-	},
-	"kivy.widget_templete import from pykv-sippets": {
-		"prefix": "kv.widget",
-		"body": [
-			"class ${1:WidgetnName}(Widget):",
-			"\tdef __init__(self, ${2:**kwargs}):",
-			"\t\tsuper(${1:WidgetnName}, self).__init__(${2:**kwargs})",
-			"\t\t$0"
-		],
-		"description": "basic widget's declaration."
 	}
 }

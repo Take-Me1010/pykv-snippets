@@ -1,6 +1,5 @@
 # pykv-snippet README
 
-
 ## Features
 
 - You can use some snippets useful in python kivy description !
@@ -10,11 +9,16 @@
 
 ![demo](image/pythonDemo.gif)
 
+This supports some widgets import.
+
+![widgetimportdemo](image/kivyimportdemo.gif)
+
+Enjoy Kivy !
 
 ## From author
 
 I'm new to python, kivy and github.
-If you know more useful snippets, let me know or pull request.
+If you know more useful snippets, let me know them.
 
 ### 1.0.0
 
