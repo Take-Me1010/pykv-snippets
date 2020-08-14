@@ -1,6 +1,6 @@
 {
 	"kivy App Template from pykv-snippets": {
-		"prefix": "kv.start",
+		"prefix": "kvstart",
 		"body": [
 			"from kivy.app import App",
 			"\n",
@@ -18,7 +18,7 @@
 		"description": "basic App's declaration."
 	},
 	"kivy.windowSize from pykv-snippets": {
-		"prefix": "kv.win",
+		"prefix": "kvwin",
 		"body": [
 			"from kivy.config import Config",
 			"Config.set('graphics', 'width', '${1:640}')",
@@ -28,12 +28,12 @@
 		"description": "Set Window size"
 	},
 	"kivy.clock from pykv-snippets": {
-		"prefix": "kv.clk",
+		"prefix": "kvclk",
 		"body": "from kivy.clock import Clock",
 		"description": "import Clock class"
 	},
 	"kivy.load_file from pykv-snippets": {
-		"prefix": "kv.load",
+		"prefix": "kvload",
 		"body": [
 			"from kivy.lang import Builder",
 			"Builder.load_file('${1:./test.kv}')"
@@ -41,42 +41,152 @@
 		"description": "Builder.load_file"
 	},
 	"kivy.properties import from pykv-snippets": {
-		"prefix": "kv.prop",
+		"prefix": "kvprop",
 		"body": "from kivy.properties import ${1:StringProperty}",
 		"description": "from kivy.properties import something"
 	},
 	"kivy.unix.widget import from pykv-snippets":{
-		"prefix": "kv.wid",
+		"prefix": "kvwid",
 		"body": "from kivy.uix.widget import Widget",
 		"description": "import Widget class"
 	},
 	"kivy.unix.label from pykv-snippets" : {
-		"prefix" : "kv.label",
+		"prefix" : "kvlabel",
 		"body": "from kivy.uix.label import Label",
 		"description": "import Label class"
 	},
 	"kivy.unix.button from pykv-snippets": {
-		"prefix": "kv.button",
+		"prefix": "kvbutton",
 		"body": "from kivy.uix.button import Button",
 		"description": "import Button class"
 	},
 	"kivy.uix.screenmanager from pykv-snippets": {
-		"prefix": "kv.screen",
+		"prefix": "kvscreen",
 		"body": "from kivy.uix.screenmanager import ScreenManager, Screen",
 		"description": "import ScreenManager and Screen classes"
 	},
-	"kivy.uix.popup from pykv-snippets": {
-		"prefix": "kv.popup",
-		"body": "from kivy.uix.popup import Popup",
-		"description": "import Popup class"
+	"kivy.uix.textinput from pykv-snippets": {
+		"prefix": "kvtextinput",
+		"body": "from kivy.uix.textinput import TextInput",
+		"description": "import TextInput class"
+	},
+	"kivy.uix.checkbox from pykv-snippets": {
+		"prefix": "kvcheckbox",
+		"body": "from kivy.uix.checkbox import CheckBox",
+		"description": "import CheckBox class"
+	},
+	"kivy.uix.slider from pykv-snippets": {
+		"prefix": "kvtslider",
+		"body": "from kivy.uix.slider import Slider",
+		"description": "import Slider class"
+	},
+	"kivy.uix.progressbar from pykv-snippets": {
+		"prefix": "kvprogress",
+		"body": "from kivy.uix.progressbar import ProgressBar",
+		"description": "import ProgressBar class"
+	},
+	"kivy.uix.togglebutton from pykv-snippets": {
+		"prefix": "kvtogglebutton",
+		"body": "from kivy.uix.togglebutton import ToggleButton",
+		"description": "import ToggleButton class"
+	},
+	"kivy.uix.switch from pykv-snippets": {
+		"prefix": "kvswitch",
+		"body": "from kivy.uix.switch import Switch",
+		"description": "import Switch class"
+	},
+	"kivy.uix.video from pykv-snippets": {
+		"prefix": "kvvideo",
+		"body": "from kivy.uix.video import Video",
+		"description": "import Video class"
 	},
 	"kivy.uix.boxlayout from pykv-snippets": {
-		"prefix": "kv.boxlayout",
+		"prefix": "kvbox",
 		"body": "from kivy.uix.boxlayout import BoxLayout",
 		"description": "import BoxLayout class"
 	},
+	"kivy.uix.floatlayout from pykv-snippets": {
+		"prefix": "kvfloat",
+		"body": "from kivy.uix.floatlayout import FloatLayout",
+		"description": "import FloatLayout class"
+	},
+	"kivy.uix.gridlayout from pykv-snippets": {
+		"prefix": "kvgrid",
+		"body": "from kivy.uix.gridlayout import GridLayout",
+		"description": "import GridLayout class"
+	},
+	"kivy.uix.pagelayout from pykv-snippets": {
+		"prefix": "kvpage",
+		"body": "from kivy.uix.pagelayout import PageLayout",
+		"description": "import PageLayout class"
+	},
+	"kivy.uix.relativelayout from pykv-snippets": {
+		"prefix": "kvrelative",
+		"body": "from kivy.uix.relativelayout import RelativeLayout",
+		"description": "import RelativeLayout class"
+	},
+	"kivy.uix.scatter from pykv-snippets": {
+		"prefix": "kvscatter",
+		"body": "from kivy.uix.scatter import Scatter",
+		"description": "import Scatter"
+	},
+	"kivy.uix.stacklayout from pykv-snippets": {
+		"prefix": "kvstack",
+		"body": "from kivy.uix.stacklayout import StackLayout",
+		"description": "import StackLayout"
+	},
+	"kivy.uix.popup from pykv-snippets": {
+		"prefix": "kvpopup",
+		"body": "from kivy.uix.popup import Popup",
+		"description": "import Popup class"
+	},
+	"kivy.uix.dropdown from pykv-snippets": {
+		"prefix": "kvdrop",
+		"body": "from kivy.uix.dropdown import DropDown",
+		"description": "import DropDown class"
+	},
+	"kivy.uix.bubble from pykv-snippets": {
+		"prefix": "kvbubble",
+		"body": "from kivy.uix.bubble import Bubble",
+		"description": "import Bubble class"
+	},
+	"kivy.uix.filechooser.FileChooser from pykv-snippets": {
+		"prefix": "kvfilechooser",
+		"body": "from kivy.uix.filechooser import FileChooser",
+		"description": "import FileChooser class"
+	},
+	"kivy.uix.filechooser.FileChooserIconView from pykv-snippets": {
+		"prefix": "kvfilechoosericon",
+		"body": "from kivy.uix.filechooser import FileChooserIconView",
+		"description": "import FileChooserIconView class"
+	},
+	"kivy.uix.spinner from pykv-snippets": {
+		"prefix": "kvfilechoosericon",
+		"body": "from kivy.uix.spinner import Spinner",
+		"description": "import Spinner class"
+	},
+	"kivy.uix.recycleview from pykv-snippets": {
+		"prefix": "kvrecycle",
+		"body": "from kivy.uix.recycleview import RecycleView",
+		"description": "import RecycleView class"
+	},
+	"kivy.uix.tabbedpanel from pykv-snippets": {
+		"prefix": "kvtabbed",
+		"body": "from kivy.uix.tabbedpanel import TabbedPanel",
+		"description": "import TabbedPanel class"
+	},
+	"kivy.uix.videoplayer from pykv-snippets": {
+		"prefix": "kvvideoplayer",
+		"body": "from kivy.uix.videoplayer import VideoPlayer",
+		"description": "import VideoPlayer class"
+	},
+	"kivy.uix.vkeyboard from pykv-snippets": {
+		"prefix": "kvvkey",
+		"body": "from kivy.uix.vkeyboard import VKeyboard",
+		"description": "import VKeyboard class"
+	},
 	"kivy.japanaize import from pykv-snippets": {
-		"prefix": "kv.ja",
+		"prefix": "kvja",
 		"body": "import japanize_kivy",
 		"description": "you can use Japanese font by import japanize_kivy. See https://blog.amedama.jp/entry/japanize-kivy"
 	}

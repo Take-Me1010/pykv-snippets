@@ -3,7 +3,7 @@
 ## Features
 
 - You can use some snippets useful in python kivy description !
-- All of snippets in python begin with "kv." so that you can discriminate between this snippets and others.
+- All of snippets in python begin with "kv" so that you can discriminate between this snippets and others.
 
 ### Demo
 
@@ -12,6 +12,8 @@
 This supports some widgets import.
 
 ![widgetimportdemo](image/kivyimportdemo.gif)
+
+In addition, Clock, 
 
 Enjoy Kivy !
 
