@@ -1,14 +1,14 @@
 {
     "publisher": "Take-Me1010",
     "name": "pykv-snippets",
-    "displayName": "python-Kivy-snippets",
+    "displayName": "Python-Kivy-snippets",
     "description": "code snippets for python Kivy",
     "repository": {
         "type": "git",
         "url": "https://github.com/Take-Me1010/pykv-snippets"
     },
     "license": "SEE LICENSE IN LICENSE",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.47.0"
     },
