@@ -2,8 +2,7 @@
 	"orientaiton from pykv-sippets": {
 		"prefix": "orientation",
 		"body": [
-			"orientation: '${1:vertical}'",
-			"\t"
+			"orientation: '${1:vertical}'"
 		]
 	},
 	"horizontal from pykv-sippets": {

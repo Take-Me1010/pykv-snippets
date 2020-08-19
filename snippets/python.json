@@ -1,6 +1,6 @@
 {
 	"kivy App Template from pykv-snippets": {
-		"prefix": "kvstart",
+		"prefix": "kvtemplate",
 		"body": [
 			"from kivy.app import App",
 			"\n",
@@ -44,6 +44,16 @@
 		"prefix": "kvprop",
 		"body": "from kivy.properties import ${1:StringProperty}",
 		"description": "from kivy.properties import something"
+	},
+	"kivy.animation import from pykv-snippets": {
+		"prefix": "kvanim",
+		"body": "from kivy.animation import Animation",
+		"description": "from kivy.animation import Animation class"
+	},
+	"import AnimationTransition from pykv-snippets": {
+		"prefix": "kvanimtrans",
+		"body": "from kivy.animation import AnimationTransition",
+		"description": "from kivy.animation import AnimationTransition class"
 	},
 	"kivy.unix.widget import from pykv-snippets":{
 		"prefix": "kvwid",

@@ -22,9 +22,6 @@ Enjoy Kivy !
 I'm new to python, kivy and github.
 If you know more useful snippets, let me know them.
 
-### 1.0.1
-
-add some snippets of uix widgets
 
 ### 1.0.0
 

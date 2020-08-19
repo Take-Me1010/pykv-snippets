@@ -1,0 +1,72 @@
+{
+    "size_hint_x from pykv-sippets": {
+		"prefix": "sx",
+        "body": "size_hint_x",
+        "description": "keyword argument of Widget"
+	},
+	"size_hint_y from pykv-sippets": {
+		"prefix": "sy",
+		"body": "size_hint_y",
+        "description": "keyword argument of Widget"
+    },
+    "size_hint from pykv-sippets": {
+		"prefix": "s",
+		"body": "size_hint",
+        "description": "keyword argument of Widget"
+    },
+    "orientation from pykv-sippets": {
+		"prefix": "orientation",
+		"body": "orientation='${1:vertical}'",
+        "description": "keyword argument of Layout classes"
+    },
+    "text from pykv-sippets": {
+		"prefix": "text",
+		"body": "text",
+        "description": "keyword argument of Widget"
+	},
+    "transition from pykv-snippets": {
+		"prefix": "trans",
+		"body": "transition",
+		"description": "keyword argument of ScreenManager"
+    },
+    "background_color from pykv-snippets": {
+		"prefix": "background_color",
+		"body": "background_color",
+		"description": "keyword argument of Animation"
+    },
+    "duration from pykv-snippets": {
+		"prefix": "duration",
+		"body": "duration",
+		"description": "keyword argument of Animation"
+    },
+    "opacity from pykv-snippets": {
+		"prefix": "opacity",
+		"body": "opacity",
+		"description": "keyword argument of Animation"
+    },
+    "size from pykv-snippets": {
+		"prefix": "size",
+		"body": "size",
+		"description": "keyword argument of Animation"
+    },
+    "on_press from pykv-sippets": {
+		"prefix": "onpress",
+		"body": "on_press",
+        "description": "keyword argument of Widget.bind"
+	},
+    "on_start from pykv-snippets": {
+		"prefix": "onstart",
+		"body": "on_start",
+		"description": "keyword argument of Widget.bind"
+    },
+    "on_complete from pykv-snippets": {
+		"prefix": "oncomplete",
+		"body": "on_complete",
+		"description": "keyword argument of Widget.bind"
+    },
+    "on_progress from pykv-snippets": {
+		"prefix": "onprogress",
+		"body": "on_progress",
+		"description": "keyword argument of Widget.bind"
+    }
+}
