@@ -4,7 +4,8 @@
 
 - You can use some snippets useful in python kivy description !
 - Snippets supports some keywords in Kivy (e.g. sx -> size_hint_x:)
-- All of snippets in python begin with "kv" so that you can discriminate between this snippets and others.
+- Most of snippets in python begin with "kv" so that you can discriminate between this snippets and others.
+- The others in python are keyword argument for Widget, Animation, bind.
 
 ### Demo
 
@@ -14,6 +15,7 @@ This supports some widgets import.
 
 ![python-Kivy-snippets](image/kivyimportdemo.gif)
 
+In addition, keyword argument for Widget, Animation, bind
 
 Enjoy Kivy !
 

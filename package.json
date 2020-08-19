@@ -46,6 +46,10 @@
             {
                 "language": "python",
                 "path": "./snippets/python.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/keywords.json"
             }
         ]
     }
