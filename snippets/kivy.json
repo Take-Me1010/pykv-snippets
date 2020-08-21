@@ -1,9 +1,7 @@
 {
 	"orientaiton from pykv-sippets": {
 		"prefix": "orientation",
-		"body": [
-			"orientation: '${1:vertical}'"
-		]
+		"body": "orientation: '${1:vertical}'"
 	},
 	"horizontal from pykv-sippets": {
 		"body": "horizontal",
@@ -40,5 +38,13 @@
 	"on_release from pykv-sippets": {
 		"prefix": "onrelease",
 		"body": "on_release: "
+	},
+	"on_text from pykv-sippets": {
+		"prefix": "ontext",
+		"body": "on_text: "
+	},
+	"on_text_validate from pykv-sippets": {
+		"prefix": "ontextvalidate",
+		"body": "on_text_validate: "
 	}
 }

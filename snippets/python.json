@@ -1,4 +1,9 @@
 {
+	"kivy.import template" : {
+		"prefix": "kvimport",
+		"body": "from kivy.$1 import $2",
+		"description": "import kivy's module"
+	},
 	"kivy App Template from pykv-snippets": {
 		"prefix": "kvtemplate",
 		"body": [
@@ -17,8 +22,13 @@
 		],
 		"description": "basic App's declaration."
 	},
+	"kivy.config from pykv-snippets": {
+		"prefix": "kvconfig",
+		"body": "from kivy.config import Config",
+		"description": "from kivy.config import Config"
+	},
 	"kivy.windowSize from pykv-snippets": {
-		"prefix": "kvwin",
+		"prefix": "kvwinsize",
 		"body": [
 			"from kivy.config import Config",
 			"Config.set('graphics', 'width', '${1:640}')",
@@ -171,7 +181,7 @@
 		"description": "import FileChooserIconView class"
 	},
 	"kivy.uix.spinner from pykv-snippets": {
-		"prefix": "kvfilechoosericon",
+		"prefix": "kvspinner",
 		"body": "from kivy.uix.spinner import Spinner",
 		"description": "import Spinner class"
 	},
