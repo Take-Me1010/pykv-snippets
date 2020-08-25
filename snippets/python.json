@@ -27,6 +27,11 @@
 		"body": "from kivy.config import Config",
 		"description": "from kivy.config import Config"
 	},
+	"kivy.core.window from pykv-snippets": {
+		"prefix": "kvwin",
+		"body": "from kivy.core.window import Window",
+		"description": "import Window class"
+	},
 	"kivy.windowSize from pykv-snippets": {
 		"prefix": "kvwinsize",
 		"body": [
@@ -79,6 +84,11 @@
 		"prefix": "kvbutton",
 		"body": "from kivy.uix.button import Button",
 		"description": "import Button class"
+	},
+	"kivy.uix.image from pykv-snippets": {
+		"prefix": "kvimage",
+		"body": "from kivy.uix.image import Image",
+		"description": "import Image class"
 	},
 	"kivy.uix.screenmanager from pykv-snippets": {
 		"prefix": "kvscreen",
@@ -184,6 +194,11 @@
 		"prefix": "kvspinner",
 		"body": "from kivy.uix.spinner import Spinner",
 		"description": "import Spinner class"
+	},
+	"kivy.uix.carousel from pykv-snippets": {
+		"prefix": "kvcarousel",
+		"body": "from kivy.uix.carousel import Carousel",
+		"description": "import Carousel class"
 	},
 	"kivy.uix.recycleview from pykv-snippets": {
 		"prefix": "kvrecycle",
