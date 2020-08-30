@@ -10,8 +10,13 @@
         "description": "keyword argument of Widget"
     },
     "size_hint from pykv-sippets": {
-		"prefix": "s",
+		"prefix": "sizehint",
 		"body": "size_hint",
+        "description": "keyword argument of Widget"
+	},
+	"pos_hint from pykv-sippets": {
+		"prefix": "poshint",
+		"body": "pos_hint={'x':${1:0}, 'y':${2:0}}$0",
         "description": "keyword argument of Widget"
     },
 	"font_size from pykv-sippets": {

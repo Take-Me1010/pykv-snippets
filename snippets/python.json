@@ -22,6 +22,11 @@
 		],
 		"description": "basic App's declaration."
 	},
+	"kivy.factory from pykv-snippets": {
+		"prefix" : "kvfactory",
+		"body" : "from kivy.factory import Factory",
+		"description": "import Factory class"
+	},
 	"kivy.config from pykv-snippets": {
 		"prefix": "kvconfig",
 		"body": "from kivy.config import Config",

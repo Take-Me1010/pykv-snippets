@@ -3,6 +3,13 @@
 All notable changes to the "pyKv-snippet" extension will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.0.6] - 2020-8-30
+### Added
+- New import snippets
+  - kvfactory -> from kivy.factory import Factory
+- New keyword snippet
+  - poshint -> pos_hint={'x':, 'y'}
+
 ## [1.0.5] - 2020-8-25
 ### Added
 - New import snippets
