@@ -28,7 +28,7 @@ If you know more useful snippets, let me know them.
 
 ## CHANGELOG
 
-See [CHANGELOG.md](https://github.com/Take-Me1010/pykv-snippets) in git.
+See [CHANGELOG.md](https://github.com/Take-Me1010/pykv-snippets).
 
 ## License
 

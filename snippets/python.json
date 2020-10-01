@@ -32,6 +32,11 @@
 		"body": "from kivy.config import Config",
 		"description": "from kivy.config import Config"
 	},
+	"kivy.lang.builder from pykv-snippets" : {
+		"prefix" : "kvbuilder",
+		"body" : "from kivy.lang.builder import Builder",
+		"description" : "from kivy.lang.builder import Builder"
+	},
 	"kivy.core.window from pykv-snippets": {
 		"prefix": "kvwin",
 		"body": "from kivy.core.window import Window",
