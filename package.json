@@ -8,7 +8,7 @@
         "url": "https://github.com/Take-Me1010/pykv-snippets"
     },
     "license": "SEE LICENSE(MIT)",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "engines": {
         "vscode": "^1.47.0"
     },

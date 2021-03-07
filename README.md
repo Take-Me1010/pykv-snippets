@@ -15,9 +15,9 @@ This supports some widgets import.
 
 ![python-Kivy-snippets](image/importDEMO.gif)
 
-In addition, keyword argument for Widget, Animation and bind !
+In addition, keyword argument for Widget, bind and so on!
 
-![python-Kivy-snippets](image/keywordArgumentDEMO.gif)
+![python-Kivy-snippets](image/keywordArgumentDemo.gif)
 
 Enjoy Kivy !
 

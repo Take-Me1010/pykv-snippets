@@ -12,28 +12,28 @@
 		"body": "vertical"
 	},
 	"font_size from pykv-snippets": {
-		"prefix": "fontsize",
+		"prefix": "font_size",
 		"body": "font_size: "
 	},
 	"padding from pykv-snippets": {
-		"prefix": "pad",
+		"prefix": "padding",
 		"body": "padding: "
 	},
 	"size_x from pykv-snippets": {
-		"prefix": "sx",
+		"prefix": ["sx", "size_hint_x"],
 		"body": "size_hint_x: "
 	},
 	"size_y from pykv-snippets": {
-		"prefix": "sy",
+		"prefix": ["sy", "size_hint_y"],
 		"body": "size_hint_y: "
 	},
 	"size_hint from pykv-snippets" : {
 		"prefix" : "size_hint",
-		"body" : "size_hint: "
+		"body" : "size_hint: $1, $2"
 	},
 	"pos_hint from pykv-snippets" : {
 		"prefix" : "pos_hint",
-		"body" : "pos_hint: {$1, $2}$0"
+		"body" : "pos_hint: {'${1|x,right,center_x|}': $2, '${3|y,top,center_y|}': $4}$0"
 	},
 	"Rectangle: from pykv-snippets": {
 		"prefix": "rect",

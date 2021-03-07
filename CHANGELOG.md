@@ -3,6 +3,21 @@
 All notable changes to the "pyKv-snippet" extension will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.0.8] - 2021-03-07
+
+### Changed
+
+- Most all snippets for keyword argument in python is ended with "="
+  - While "onpress" -> "on_press" before, "onpress" -> "on_press=${1:callback}" now.
+
+- changed some prefix in KvLang
+  - pad -> padding
+  - fontsize -> font_size
+- changed some snippets
+  - from "size_hint" -> "size_hint: " to "size_hint" -> "size_hint: $1, $2"
+  - from "pos_hint" -> "pos_hint: {\$1, \$2}\$0" to "pos_hint" -> "pos_hint: {'\${1|x,right,center_x|}': \$2, '\${3|y,top,center_y|}': \$4}\$0"
+    - in order to allow you to write KvLang comfortably.
+
 ## [1.0.7] - 2020-10-01
 ### Added
 
