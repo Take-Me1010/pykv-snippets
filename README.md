@@ -11,22 +11,17 @@
 
 ## Demo
 
-![python-Kivy-snippets](image/pythonDemo.gif)
+![python-Kivy-snippets](./image/pythonDemo.gif)
 
 This supports some widgets import.
 
-![python-Kivy-snippets](image/importDEMO.gif)
+![python-Kivy-snippets](./image/importDEMO.gif)
 
 In addition, keyword argument for Widget, bind and so on!
 
-![python-Kivy-snippets](image/keywordArgumentDemo.gif)
+![python-Kivy-snippets](./image/keywordArgumentDemo.gif)
 
 Enjoy Kivy !
-
-## From author
-
-I'm new to python, kivy and github.
-If you know more useful snippets, let me know them.
 
 ## CHANGELOG
 
