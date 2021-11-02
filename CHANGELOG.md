@@ -3,6 +3,15 @@
 All notable changes to the "pyKv-snippet" extension will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.0.9] - 2021-11-02
+
+### Changed
+
+- about orientation (one of keywords of BoxLayout)
+  - you can select "vertical" or "horizontal".
+  - thus the snippets "vertical" and "horizontal" have removed.
+
+
 ## [1.0.8] - 2021-03-07
 
 ### Changed
