@@ -4,7 +4,7 @@
 
 ## Features
 
-- You can use some useful snippets when coding python Kivy!
+- You can use some useful snippets when coding Python Kivy!
 - Snippets supports some keywords in Kivy (e.g. sx -> size_hint_x: )
 - Most of snippets in python begin with "kv" so that you can discriminate between this snippets and others.
 - The others in python are keyword arguments for Widget, Animation, bind.
@@ -24,10 +24,20 @@ In addition, supports some keyword arguments for Widget, bind, and so on!
 
 Enjoy Kivy!
 
+## Future works
+
+- implement auto import.
+  - if you type `Button` and there is no import, add import statement automatically or by some command.
+
+## Attention / Comments
+
+- This extension does not depend on kivy version.
+- Please feel free to contact me if you want to implement additional snippets!
+
 ## CHANGELOG
 
-See [CHANGELOG.md](https://github.com/Take-Me1010/pykv-snippets).
+See [CHANGELOG.md](./CHANGELOG.md)
 
 ## License
 
-MIT License, refer to license file.
+MIT License, refer to [license file](LICENSE).

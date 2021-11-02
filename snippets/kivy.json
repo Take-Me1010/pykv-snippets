@@ -1,15 +1,7 @@
 {
 	"orientaiton from pykv-snippets": {
 		"prefix": "orientation",
-		"body": "orientation: '${1:vertical}'"
-	},
-	"horizontal from pykv-snippets": {
-		"body": "horizontal",
-		"prefix": "horizontal"
-	},
-	"vertical from pykv-snippets": {
-		"prefix": "vertical",
-		"body": "vertical"
+		"body": "orientation: '${1|vertical,horizontal|}'"
 	},
 	"font_size from pykv-snippets": {
 		"prefix": "font_size",

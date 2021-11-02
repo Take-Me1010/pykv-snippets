@@ -9,12 +9,18 @@
     },
     "icon": "image/icon.png",
     "license": "SEE LICENSE(MIT)",
-    "version": "1.0.10",
+    "version": "1.0.9",
     "engines": {
         "vscode": "^1.47.0"
     },
     "categories": [
         "Snippets"
+    ],
+    "keywords": [
+        "Python",
+        "Kivy",
+        "kv",
+        "snippet"
     ],
     "contributes": {
         "languages": [
