@@ -11,15 +11,16 @@
 
 ## Demo
 
-![python-Kivy-snippets](./image/pythonDemo.gif)
+![./image/pythonDemo.gif](./image/pythonDemo.gif)
 
 This extension supports some widgets import.
+Basically, the snippets are kv(class name) like kvbutton, kvlabel.
 
-![python-Kivy-snippets](./image/importDEMO.gif)
+![./image/importDEMO.gif](./image/importDEMO.gif)
 
-In addition, keyword argument for Widget, bind, and so on!
+In addition, supports some keyword arguments for Widget, bind, and so on!
 
-![python-Kivy-snippets](./image/keywordArgumentDemo.gif)
+![./image/keywordsDemo.gif](./image/keywordsDemo.gif)
 
 Enjoy Kivy!
 
