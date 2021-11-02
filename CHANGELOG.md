@@ -1,16 +1,21 @@
 # Change Log
 
-All notable changes to the "pyKv-snippet" extension will be documented in this file.
+All notable changes to the "pykv-snippet" extension will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [1.0.9] - 2021-11-02
+## [1.0.10] - 2021-11-02
 
 ### Changed
 
 - about orientation (one of keywords of BoxLayout)
   - you can select "vertical" or "horizontal".
-  - thus the snippets "vertical" and "horizontal" have removed.
+  - thus, the snippets "vertical" and "horizontal" have removed.
+- add trigger words for callback arguments like on_press, on_release...
+  - for example, the trigger word of snippet for `on_press = callback` was only `onpress` before, but now `on_press` is OK and it is natural.
 
+## [1.0.9] - ??
+
+I forgot writing CHANGELOG...
 
 ## [1.0.8] - 2021-03-07
 

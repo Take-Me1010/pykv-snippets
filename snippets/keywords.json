@@ -40,9 +40,9 @@
 		"description": "keyword argument of ScreenManager"
 	},
 	"background_color from pykv-snippets": {
-		"prefix": "background_color",
+		"prefix": ["background_color", "bg"],
 		"body": "background_color=",
-		"description": "keyword argument of Animation"
+		"description": "keyword argument of Button and so on"
 	},
 	"duration from pykv-snippets": {
 		"prefix": "duration",
@@ -65,27 +65,27 @@
 		"description": "keyword argument of Animation"
 	},
 	"on_press from pykv-sippets": {
-		"prefix": "onpress",
+		"prefix": ["onpress", "on_press"],
 		"body": "on_press=${1:callback}",
 		"description": "keyword argument of Widget.bind"
 	},
 	"on_release from pykv-sippets": {
-		"prefix": "onrelease",
+		"prefix": ["onrelease", "on_release"],
 		"body": "on_release=${1:callback}",
 		"description": "keyword argument of Widget.bind"
 	},
 	"on_start from pykv-snippets": {
-		"prefix": "onstart",
+		"prefix": ["onstart", "on_start"],
 		"body": "on_start=${1:callback}",
 		"description": "keyword argument of Widget.bind"
 	},
 	"on_complete from pykv-snippets": {
-		"prefix": "oncomplete",
+		"prefix": ["oncomplete", "on_complete"],
 		"body": "on_complete=${1:callback}",
 		"description": "keyword argument of Widget.bind"
 	},
 	"on_progress from pykv-snippets": {
-		"prefix": "onprogress",
+		"prefix": ["onprogress", "on_progress"],
 		"body": "on_progress=${1:callback}",
 		"description": "keyword argument of Widget.bind"
 	}

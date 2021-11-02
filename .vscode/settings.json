@@ -12,5 +12,6 @@
         "statusBarItem.remoteBackground": "#904C1B",
         "statusBar.debuggingForeground": "#24000C",
         "statusBar.debuggingBackground": "#DE6A92"
-    }
+    },
+    "markdown-preview-enhanced.previewTheme": "github-light.css"
 }

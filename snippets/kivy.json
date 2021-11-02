@@ -44,19 +44,19 @@
 		"body": "color: "
 	},
 	"on_press from pykv-snippets": {
-		"prefix": "onpress",
+		"prefix": ["onpress", "on_press"],
 		"body": "on_press: "
 	},
 	"on_release from pykv-snippets": {
-		"prefix": "onrelease",
+		"prefix": ["onrelease", "on_release"],
 		"body": "on_release: "
 	},
 	"on_text from pykv-snippets": {
-		"prefix": "ontext",
+		"prefix": ["ontext", "on_text"],
 		"body": "on_text: "
 	},
 	"on_text_validate from pykv-snippets": {
-		"prefix": "ontextvalidate",
+		"prefix": ["ontextvalidate", "on_text_validate"],
 		"body": "on_text_validate: "
 	},
 	"set from pykv-snippets": {
