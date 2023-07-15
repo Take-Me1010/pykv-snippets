@@ -1,6 +1,6 @@
 # pykv-snippets
 
-[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/Take-Me1010.pykv-snippets.svg) ![installs](https://vsmarketplacebadge.apphb.com/installs/Take-Me1010.pykv-snippets.svg) ![rating](https://vsmarketplacebadge.apphb.com/rating/Take-Me1010.pykv-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=Take-Me1010.pykv-snippets)
+![version](https://img.shields.io/visual-studio-marketplace/v/Take-Me1010.pykv-snippets) ![installs](https://img.shields.io/visual-studio-marketplace/d/Take-Me1010.pykv-snippets) ![Rating](https://img.shields.io/visual-studio-marketplace/r/Take-Me1010.pykv-snippets)
 
 ## Features
 
