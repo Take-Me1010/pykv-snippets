@@ -7,6 +7,9 @@
         "type": "git",
         "url": "https://github.com/Take-Me1010/pykv-snippets"
     },
+    "bugs": {
+        "url": "https://github.com/Take-Me1010/pykv-snippets/issues"
+    },
     "icon": "image/icon.png",
     "license": "SEE LICENSE(MIT)",
     "version": "1.0.10",
